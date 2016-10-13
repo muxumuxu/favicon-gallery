@@ -1,0 +1,34 @@
+doctype 5
+html lang="fr"
+  head
+    meta http-equiv="content-type" content="text/html; charset=utf-8"
+
+    title Favicon•Gallery
+
+    meta name="description" content="Favicon•Gallery"
+    meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
+    meta name="google-site-verification" content="70ZCbtwfDLvY39retUW9MfZY-Pr_IDVscOqrrqvavto"
+
+    meta property="og:site_name" content="TODO"
+    meta property="og:title" content="TODO"
+    meta property="og:type" content="website"
+    meta property="og:url" content="http://favicon.gallery/"
+    meta property="og:description" content="TODO"
+    meta property="og:image" content="http://favicon.gallery/#{image_path('og-image.png')}"
+
+    meta name="twitter:card" content="summary_large_image"
+    meta name="twitter:site" content="@wearemuxu"
+
+    meta name="twitter:widgets:theme" content="light"
+    meta name="twitter:widgets:link-color" content="#33CC33"
+    meta name="twitter:widgets:border-color" content="#33CC33"
+
+    link rel="canonical" href="http://favicon.gallery"
+    link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"
+
+    = stylesheet_link_tag 'all'
+    = javascript_include_tag 'all'
+
+
+  body
+    = yield

@@ -1,0 +1,22 @@
+- if favicons[:tabnext]
+  .website class="#{id}"
+    h2 = favicons[:url]
+    p = favicons[:description]
+    .tabs class="#{favicons[:tab]}"
+      .tab
+        = image_tag "favicons/#{id}.png"
+        span = favicons[:title]
+      .tab
+        = image_tag "favicons/#{favicons[:tabnext]}.png"
+        span = favicons[:tabnext]
+- else
+  .website class="#{id}"
+    h2 = favicons[:url]
+    p = favicons[:description]
+    .tabs class="#{favicons[:tab]}"
+      .tab
+        = image_tag "favicons/#{id}.png"
+        span = favicons[:title]
+      .tab
+        = image_tag "favicons/favicon-gallery.svg"
+        span Favicon•Gallery

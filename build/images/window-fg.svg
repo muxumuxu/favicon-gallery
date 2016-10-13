@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="76px" viewBox="0 0 800 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>window-fg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="800" height="76" rx="14"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tabs" transform="translate(-88.000000, -313.000000)">
+            <g id="window-fg" transform="translate(88.000000, 313.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="bg" fill="#F6F6F7" xlink:href="#path-1"></use>
+                <g id="actions" mask="url(#mask-2)" fill="#E9E9E9">
+                    <g transform="translate(26.000000, 28.000000)" id="action">
+                        <circle cx="12" cy="12" r="12"></circle>
+                        <circle cx="52" cy="12" r="12"></circle>
+                        <circle cx="92" cy="12" r="12"></circle>
+                    </g>
+                </g>
+                <g id="tab" mask="url(#mask-2)">
+                    <g transform="translate(144.000000, 20.000000)">
+                        <path d="M25.1570627,1.81555718 C25.6226041,0.812852635 26.8933742,0 27.9921089,0 L460.007891,0 C461.108102,0 462.377567,0.813220277 462.842937,1.81555718 L488,56 L0,56 L25.1570627,1.81555718 Z" id="Combined-Shape" fill="#E9E9E9"></path>
+                        <g id="content" stroke-width="1" fill="none" transform="translate(34.000000, 12.000000)">
+                            <text id="FG" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
+                                <tspan x="46" y="25">FG</tspan>
+                            </text>
+                            <rect id="favicon" fill="#000000" x="0" y="0" width="32" height="32" rx="5"></rect>
+                        </g>
+                    </g>
+                </g>
+                <g id="tab" mask="url(#mask-2)">
+                    <g transform="translate(600.000000, 20.000000)">
+                        <path d="M25.1570627,1.81555718 C25.6226041,0.812852635 26.8933742,0 27.9921089,0 L460.007891,0 C461.108102,0 462.377567,0.813220277 462.842937,1.81555718 L488,56 L0,56 L25.1570627,1.81555718 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                        <g id="content" stroke-width="1" fill="none" transform="translate(34.000000, 12.000000)">
+                            <text id="BG" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
+                                <tspan x="46" y="25">BG</tspan>
+                            </text>
+                            <rect id="favicon" fill="#000000" x="0" y="0" width="32" height="32" rx="5"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

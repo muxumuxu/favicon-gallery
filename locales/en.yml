@@ -1,0 +1,27 @@
+en:
+  header:
+    logo: |
+      Favicon<span>•</span>Gallery
+    made: The most inspiring favicons of the world wide web <a href="http://muxumuxu.com/" target="_blank">made with 💚 by Muxu•Muxu</a>
+    submit: Submit a favicon
+  favicons:
+    list:
+      invision-blog:
+        title: Don't forget to read this...
+        url: <a href="http://blog.invisionapp.com/" target="_blank">InVision Blog</a>
+        description: When switching tabs from a blog post, the tab title changes to “Don’t forget to read this…”
+        tab: bg
+      mixcloud-player:
+        title: Chillout shows | Mixcloud
+        url: <a href="https://www.mixcloud.com/discover/chillout/?expand=1" target="_blank">Mixcloud Player</a>
+        description: The favicon displays if a mix is playing or paused, as well as the progress of the mix.
+        tab: fg
+      medium-edit:
+        title: Editing Untitled
+        url: <a href="https://medium.com/new-story" target="_blank">Medium Editing</a>
+        description: When editing the favicon is the outlined version of the logo.
+        tab: fg
+        tabnext: medium
+  footer:
+    made: |
+      <a href="http://muxumuxu.com/" target="_blank">Made with 💚 by Muxu•Muxu</a>

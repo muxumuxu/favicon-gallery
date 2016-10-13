@@ -1,0 +1,9 @@
+header
+  .wrapper
+    h1 = t 'header.logo'
+    = link_to "#"
+      = t 'header.submit'
+
+.tabs-list
+  - t('favicons.list').each do |id, favicons|
+    = partial 'shared/favicons', locals: { id: id, favicons: favicons }
