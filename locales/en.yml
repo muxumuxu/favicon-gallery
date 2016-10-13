@@ -6,6 +6,16 @@ en:
     submit: Submit a favicon
   favicons:
     list:
+      azendoo:
+        title: Azendoo
+        url: <a href="https://www.azendoo.com/" target="_blank">Azendoo</a>
+        description: Favicon shows the number of unread notifications you have.
+        tab: fg
+      google-calendar:
+        title: Calendar - Week of Oct 9, 2016
+        url: <a href="https://calendar.google.com/" target="_blank">Google Calendar</a>
+        description: Favicon displays the day of the month.
+        tab: fg
       invision-blog:
         title: Don't forget to read this...
         url: <a href="http://blog.invisionapp.com/" target="_blank">InVision Blog</a>

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "SansSerifCss";
+  src: url("/fonts/Sans-Serif.woff") format("woff");
+  font-weight: normal; }
+@font-face {
+  font-family: "SansSerifCss";
+  src: url("/fonts/Sans-Serif-Light.woff") format("woff");
+  font-weight: 300; }
 /* line 1, _common.sass */
 * {
   -webkit-font-smoothing: antialiased;
@@ -7,7 +15,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  font: 300 20px sans-serif;
+  font: 300 20px SansSerifCss, sans-serif;
   color: #000000; }
 
 /* line 11, _common.sass */
@@ -25,76 +33,79 @@ a {
     color: #33CC33; }
 
 /* line 22, _common.sass */
+.wrapper {
+  max-width: 840px;
+  margin: 0 auto;
+  position: relative; }
+
+/* line 27, _common.sass */
 header {
   width: 100%;
-  padding: 20px 0;
+  padding: 20px 20px;
   background: white;
   position: fixed;
   top: 0;
   z-index: 9;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.05);
   text-align: center; }
-  /* line 31, _common.sass */
-  header .wrapper {
-    width: 800px;
-    margin: 0 auto;
-    position: relative; }
-    /* line 35, _common.sass */
-    header .wrapper h1 {
-      font-size: 16px;
-      font-weight: bold;
-      margin: 0;
-      padding: 0;
-      float: left; }
-      /* line 41, _common.sass */
-      header .wrapper h1 span {
-        color: #33CC33; }
-    /* line 43, _common.sass */
-    header .wrapper a {
-      background: #33CC33;
-      display: block;
-      position: absolute;
-      right: 0;
+  /* line 36, _common.sass */
+  header h1 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    float: left; }
+    /* line 42, _common.sass */
+    header h1 span {
+      color: #33CC33; }
+  /* line 44, _common.sass */
+  header a {
+    background: #33CC33;
+    display: block;
+    position: absolute;
+    right: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 14px 7px;
+    top: -8px;
+    border-radius: 3px; }
+    /* line 55, _common.sass */
+    header a:hover {
       color: white;
-      font-size: 14px;
-      font-weight: bold;
-      padding: 10px 14px;
-      top: -9px;
-      border-radius: 3px; }
+      background: #2FBD2F; }
 
-/* line 55, _common.sass */
-footer {
-  width: 800px;
-  margin: 60px 20px 100px;
-  font-size: 14px; }
-
-/* line 60, _common.sass */
+/* line 59, _common.sass */
 .tabs-list {
-  width: 800px;
-  margin: 120px auto 100px; }
-  /* line 63, _common.sass */
+  max-width: 800px;
+  margin: 120px auto 100px;
+  padding: 0 20px;
+  overflow: hidden; }
+  /* line 64, _common.sass */
   .tabs-list .website {
     margin: 0 0 60px; }
-    /* line 65, _common.sass */
+    /* line 66, _common.sass */
     .tabs-list .website h2 {
       font-size: 16px;
-      margin: 0; }
-    /* line 68, _common.sass */
+      margin: 0;
+      font-weight: normal; }
+    /* line 70, _common.sass */
     .tabs-list .website p {
       color: #999;
       margin: 4px 0 14px;
       font-size: 16px; }
-    /* line 72, _common.sass */
+    /* line 74, _common.sass */
     .tabs-list .website .tabs {
       width: 800px;
       height: 76px;
       background: url(../images/tabs.svg);
       position: relative;
-      overflow: hidden; }
-      /* line 78, _common.sass */
+      overflow: hidden;
+      font-family: sans-serif; }
+      /* line 81, _common.sass */
       .tabs-list .website .tabs.bg {
         background-position: 0 76px; }
-      /* line 80, _common.sass */
+      /* line 83, _common.sass */
       .tabs-list .website .tabs .tab {
         width: 408px;
         height: 56px;
@@ -106,13 +117,13 @@ footer {
         left: 144px;
         font-size: 24px;
         padding: 0 0 0 80px; }
-        /* line 91, _common.sass */
+        /* line 94, _common.sass */
         .tabs-list .website .tabs .tab::first-letter {
           text-transform: uppercase; }
-        /* line 93, _common.sass */
+        /* line 96, _common.sass */
         .tabs-list .website .tabs .tab:last-child {
           left: 600px; }
-        /* line 95, _common.sass */
+        /* line 98, _common.sass */
         .tabs-list .website .tabs .tab img {
           position: absolute;
           display: block;
@@ -120,3 +131,21 @@ footer {
           top: 12px;
           height: 32px;
           width: 32px; }
+
+/* line 107, _common.sass */
+footer .wrapper {
+  padding: 0 20px;
+  max-width: 800px;
+  margin: 0 auto 100px; }
+  /* line 111, _common.sass */
+  footer .wrapper p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px; }
+    /* line 116, _common.sass */
+    footer .wrapper p a {
+      color: #999; }
+      /* line 118, _common.sass */
+      footer .wrapper p a:hover {
+        color: #33CC33; }
