@@ -4,18 +4,18 @@
     p = favicons[:description]
     .tabs class="#{favicons[:tab]}"
       .tab
-        = image_tag "favicons/#{id}.png"
+        = image_tag "favicons/#{id}"
         span = favicons[:title]
       .tab
-        = image_tag "favicons/#{favicons[:tabnext]}.png"
-        span = favicons[:tabnext]
+        = image_tag "favicons/#{favicons[:tabnext]}"
+        span = favicons[:tabnexttitle]
 - else
   .website class="#{id}"
     h2 = favicons[:url]
     p = favicons[:description]
     .tabs class="#{favicons[:tab]}"
       .tab
-        = image_tag "favicons/#{id}.png"
+        = image_tag "favicons/#{id}"
         span = favicons[:title]
       .tab
         = image_tag "favicons/favicon-gallery.svg"

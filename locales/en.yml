@@ -6,32 +6,45 @@ en:
     submit: Submit a favicon
   favicons:
     list:
-      azendoo:
+      act-normal-switch.png:
+        title: Get back in here!
+        url: <a href="http://actnormal.co/" target="_blank">Act Normal</a>
+        description:  When switching tabs from a blog post, the tab title and Favicon changes. Via <a href="https://twitter.com/DamienDacosta" target="_blank">@DamienDacosta</a>
+        tab: bg
+        tabnext: act-normal.png
+        tabnexttitle: Act Normal
+      saucisse.gif:
+        title: Saucis.se
+        url: <a href="http://saucis.se/" target="_blank">Saucis.se</a>
+        description: A lovely dancing sausage.
+        tab: fg
+      azendoo.png:
         title: Azendoo
         url: <a href="https://www.azendoo.com/" target="_blank">Azendoo</a>
         description: Favicon shows the number of unread notifications you have.
         tab: fg
-      google-calendar:
+      google-calendar.png:
         title: Calendar - Week of Oct 9, 2016
         url: <a href="https://calendar.google.com/" target="_blank">Google Calendar</a>
         description: Favicon displays the day of the month.
         tab: fg
-      invision-blog:
+      invision-blog.png:
         title: Don't forget to read this...
         url: <a href="http://blog.invisionapp.com/" target="_blank">InVision Blog</a>
         description: When switching tabs from a blog post, the tab title changes to “Don’t forget to read this…”
         tab: bg
-      mixcloud-player:
+      mixcloud-player.png:
         title: Chillout shows | Mixcloud
         url: <a href="https://www.mixcloud.com/discover/chillout/?expand=1" target="_blank">Mixcloud Player</a>
         description: The favicon displays if a mix is playing or paused, as well as the progress of the mix.
         tab: fg
-      medium-edit:
+      medium-edit.png:
         title: Editing Untitled
         url: <a href="https://medium.com/new-story" target="_blank">Medium Editing</a>
         description: When editing the favicon is the outlined version of the logo.
         tab: fg
-        tabnext: medium
+        tabnext: medium.png
+        tabnexttitle: Medium
   footer:
     made: |
       <a href="http://muxumuxu.com/" target="_blank">Made with 💚 by Muxu•Muxu</a>
