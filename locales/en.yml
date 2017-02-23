@@ -1,11 +1,19 @@
 en:
   header:
     logo: |
-      Favicon<span>•</span>Gallery
+      Favicon<span>.</span>Gallery
     made: The most inspiring favicons of the world wide web <a href="http://muxumuxu.com/" target="_blank">made with 💚 by Muxu•Muxu</a>
     submit: Submit a favicon
   favicons:
     list:
+      dropbox-404.png:
+        title: Dropbox - 4xx
+        url: <a href="https://www.dropbox.com/helloworld" target="_blank">Dropbox</a>
+        description:  Dropbox 404 page favicon
+        tab: fg
+        tab: bg
+        tabnext: dropbox-normal.png
+        tabnexttitle: Dropbox
       act-normal-switch.png:
         title: Get back in here!
         url: <a href="http://actnormal.co/" target="_blank">Act Normal</a>
@@ -17,11 +25,6 @@ en:
         title: Saucis.se
         url: <a href="http://saucis.se/" target="_blank">Saucis.se</a>
         description: A lovely dancing sausage.
-        tab: fg
-      azendoo.png:
-        title: Azendoo
-        url: <a href="https://www.azendoo.com/" target="_blank">Azendoo</a>
-        description: Favicon shows the number of unread notifications you have.
         tab: fg
       google-calendar.png:
         title: Calendar - Week of Oct 9, 2016
@@ -47,4 +50,4 @@ en:
         tabnexttitle: Medium
   footer:
     made: |
-      <a href="http://muxumuxu.com/" target="_blank">Made with 💚 by Muxu•Muxu</a>
+      <a href="http://muxumuxu.com/" target="_blank">Made with 💚 by Muxu.Muxu</a>
